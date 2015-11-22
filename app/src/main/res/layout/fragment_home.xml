@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeHolder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/simrik_red"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:ignore="MissingPrefix" >
+
+<!--     <android.support.v4.view.ViewPager
+        android:id="@+id/splashPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/ritiriwaj_logo"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.65" />
+        
+        <com.viewpagerindicator.LinePageIndicator
+        android:id="@+id/titles"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.03" />
+        
+
+ -->
+    <ImageView
+        android:id="@+id/splashPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/ritiriwaj_logo"
+        android:layout_marginBottom="5dp"
+        android:padding="70dp"
+        android:layout_weight="0.65" />
+    
+    <Button
+        android:id="@+id/generalCalImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.075"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:background="@drawable/white_button_selector"
+        android:drawableLeft="@drawable/calendar51"
+        android:text="@string/upcoming_events"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/personalCalImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.075"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:background="@drawable/white_button_selector"
+        android:drawableLeft="@drawable/calendar52"
+        android:text="@string/personal_events"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eShopImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.075"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:background="@drawable/white_button_selector"
+        android:drawableLeft="@drawable/shopping_bag"
+        android:text="@string/emarket"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gamesImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.075"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:background="@drawable/white_button_selector"
+        android:drawableLeft="@drawable/gamepad1"
+        android:text="@string/games"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+</LinearLayout>

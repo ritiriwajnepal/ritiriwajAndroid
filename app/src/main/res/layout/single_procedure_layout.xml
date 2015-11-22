@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/title_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/title_insert"
+            layout="@layout/row_procedure" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/title_insert"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_orange_dark" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/singleProcedureList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_block"
+        android:background="#fff"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:padding="5dp" >
+    </ListView>
+
+</RelativeLayout>

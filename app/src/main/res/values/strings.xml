@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">1558237947742401</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="app_name">रीति-रिवाज</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_notify">Set notification</string>
+    <string name="title_activity_riti_riwaj_single">RitiRiwajSingleActivity</string>
+    <string name="title_activity_procedure_list">ProcedureListActivity</string>
+    <string name="title_activity_materials_table">MaterialsTableActivity</string>
+    <string name="title_activity_procedure_single">ProcedureSingleActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</string>
+    <string name="profile">Profile</string>
+    <string name="facebook_login">Log in with Facebook</string>
+    <string name="google_login">Log in with Google+</string>
+    <string name="logged_in_as">Logged in as</string>
+    <string name="log_out">Log out</string>
+    <string name="upcoming_events">Calendar Events</string>
+    <string name="personal_events">Personal Events</string>
+    <string name="games">RitiRiwaj Games</string>
+    <string name="settings">Settings</string>
+    <string name="reason">Reasons</string>
+    <string name="religious_reason">Religious Reason</string>
+    <string name="scientific_reason">Scientific Reason</string>
+    <string name="feedback">Your Feedback...</string>
+    <string name="comment">Comment</string>
+    <string name="ethnic_group">Ethnic Group</string>
+    <string name="caste">Caste</string>
+    <string name="process_and_materials">प्रक्रिया र सामग्री</string>
+    <string name="pack_in_cart">pakage/s in cart</string>
+    <string name="addToCart">Add to cart</string>
+    <string name="action_materials">Materials</string>
+    <string name="emarket">RitiRiwaj e-Market</string>
+    <string name="per_package">per package</string>
+    <string name="includes">Includes:</string>
+    <string name="watch_video">भिडियो हेर्नुहोस्</string>
+    <string name="buy_packages">प्याकेज किन्नुहोस्</string>
+    <string name="materials_list">सामग्रीको सुची</string>
+    <string name="riwaj_history_title">ऐतिहासिक जानकारी</string>
+    <string name="please_login">Please Login to access Riti-Riwaj Features.</string>
+    <string name="riwaj_title">Riwaj Title</string>
+    <string name="riwaj_date">Month xx, 20xx</string>
+    <string name="riwaj_date_remaining">xx Days Remaining</string>
+    <string name="riwaj_what">आफ्नो रीतिरिवाजको जानकारीका साथै हरेक प्रक्रिया कसरी र किन गरिन्छ थाहा पाउनुहोस । र हरेक आवश्यक सामग्री एकै ठाउबाट मगाई घरको ढोकामा लिनुहोस् ।</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="which_community_next">आफ्नो समुदाय रोज्नुहोस :</string>
+    <string name="be_more_specific">सल्लाह - सुझावलाई संक्षिप्तमा भन्नुहोस :</string>
+    <string name="excitement_level">आफ्नो रीतिरिवाज बारे जान्न तपाईंको उत्साह ?</string>
+    <string name="feedback_request">\"रीतिरिवाज\"लाई थप जानकारी मुलक बनाउन सहयोग गर्नुहोस् । तपाईंहरुको प्रतिकृयालाई ध्यानमा राखी हामी हाम्रो खोज बढाउने छौं ।</string>
+    <string name="suggestion_form">Suggestion Form</string>
+    <string name="select_community">समुदाय रोज्नुहोस्</string>
+    <string name="add_event">Add event</string>
+
+    <!-- Nepali Months -->
+    <string name="Baishakh">बैशाख</string>
+    <string name="Jestha">जेष्ठ</string>
+    <string name="Ashadh">आषाढ</string>
+    <string name="Shrawan">श्रावण</string>
+    <string name="Bhadra">भाद्र</string>
+    <string name="Ashwin">आश्विन</string>
+    <string name="Kartik">कार्तिक</string>
+    <string name="Mangsir">मंसिर</string>
+    <string name="Poush">पौष</string>
+    <string name="Magh">माघ</string>
+    <string name="Falgun">फागुन</string>
+    <string name="Chaitra">चैत्र</string>
+    <string name="apptour_what">के</string>
+    <!-- s]</string> -->
+    <string name="apptour_what_desc">रीतिरिवाज मनाउनु पछाडिको ईतिहास र त्यसको महत्व</string>
+    <string name="apptour_why">किन</string>
+    <!-- lsg</string> -->
+    <string name="apptour_why_desc">हरेक बिधि भित्र लुकेको धार्मिक विश्वास तथा बैज्ञानिक रहस्य</string>
+    <string name="apptour_how">कसरी</string>
+    <!-- s;/L</string> -->
+    <string name="apptour_how_desc">प्रामाणिक बिधि तथा आवश्यक सामग्रीको सुची तथा ई बजार</string>
+
+    <string-array name="neaplese_number">
+        <item>०</item>
+        <item>१</item>
+        <item>२</item>
+        <item>३</item>
+        <item>४</item>
+        <item>५</item>
+        <item>६</item>
+        <item>७</item>
+        <item>८</item>
+        <item>९</item>
+    </string-array>
+
+</resources>

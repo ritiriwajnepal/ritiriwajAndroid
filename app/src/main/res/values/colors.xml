@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="simrik_red" type="color">#990000</item>
+    <item name="simrik_red_alpha" type="color">#99990000</item>
+    <item name="simrik_red_light" type="color">#880000</item>
+    <item name="light_blue" type="color">#3399FF</item>
+    <item name="google_plus_red" type="color">#dd4b39</item>
+    <item name="google_plus_darker_red" type="color">#d34836</item>
+    <item name="facebook_blue" type="color">#3b5998</item>
+    <item name="facebook_light_blue" type="color">#8b9dc3</item>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/demoDescWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix" >
+
+    <View
+        android:id="@+id/dummyView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/demoImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ritiriwaj_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/demoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/Ananda1Hv.TTF"
+            android:alpha="0.9"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="3dp"
+            android:shadowColor="#000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="@string/apptour_what"
+            android:textColor="#ffffff"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/demoTitle"
+            android:alpha="0.9"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_questionwhite" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/demoDescBelowTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        fontPath="fonts/Ananda1Hv.TTF"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:shadowColor="#000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="@string/apptour_what_desc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+    <View
+        android:id="@+id/dummyView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1" />
+
+</LinearLayout>
