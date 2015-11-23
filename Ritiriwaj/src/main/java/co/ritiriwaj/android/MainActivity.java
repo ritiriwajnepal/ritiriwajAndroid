@@ -82,10 +82,8 @@ public class MainActivity extends AppCompatActivity implements
                 Log.d("KeyHash:",
                         Base64.encodeToString(md.digest(), Base64.DEFAULT));
             }
-        } catch (NameNotFoundException e) {
-
-        } catch (NoSuchAlgorithmException e) {
-
+        } catch (NameNotFoundException | NoSuchAlgorithmException e) {
+            e.printStackTrace();
         }
 
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -93,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements
         if (findViewById(R.id.fragment_placeholder) != null) {
             if (savedInstanceState != null) {
                 Log.i("MainActivity", "Restoring Current Fragment");
-                return;
 
             } else {
                 if (getIntent().getExtras().getString("fragmentToStart")

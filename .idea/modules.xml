@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RitiRiwajImported.iml" filepath="$PROJECT_DIR$/RitiRiwajImported.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ritiriwaj/Ritiriwaj.iml" filepath="$PROJECT_DIR$/Ritiriwaj/Ritiriwaj.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ritiriwaj/app.iml" filepath="$PROJECT_DIR$/Ritiriwaj/app.iml" />
     </modules>
   </component>
